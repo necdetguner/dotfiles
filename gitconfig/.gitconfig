@@ -1,10 +1,15 @@
 [includeIf "gitdir:~/personal-repos/"]
     path = ~/personal-repos/.gitconfig-personal
-
 [includeIf "gitdir:~/work-repos/"]
     path = ~/work-repos/.gitconfig-work
+[core]
+    excludesfile = ~/.gitignore
+[pull]
+	rebase = false
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[user]
+    name = Necdet Guner

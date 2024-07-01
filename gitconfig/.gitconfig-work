@@ -1,9 +1,4 @@
 [user]
     email = work@mail.com
-    name = Necdet Guner
 [github]
     user = workUserName
-[core]
-    excludesfile = ~/.gitignore
-[pull]
-	rebase = false
