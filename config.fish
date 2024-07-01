@@ -3,6 +3,7 @@ set -g fish_greeting
 
 set -x JAVA_HOME (/usr/libexec/java_home -v 17)
 set -x PATH $JAVA_HOME/bin $PATH
+set -x LANG en_US.UTF-8
 
 # git prompt
 set -g __fish_git_prompt_show_informative_status 1
