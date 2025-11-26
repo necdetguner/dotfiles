@@ -4,6 +4,7 @@
     path = ~/work-repos/.gitconfig-work
 [core]
     excludesfile = ~/.gitignore
+	autocrlf = input
 [pull]
 	rebase = false
 [filter "lfs"]

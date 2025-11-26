@@ -27,3 +27,10 @@ if [ -e "$HOME/.config/fish/config.fish" ]; then
 fi
 
 ln -s "$PWD/config.fish" "$HOME/.config/fish/config.fish"
+
+### fish functions
+ln -sf "$PWD/fish/functions/jset.fish" "$HOME/.config/fish/functions/jset.fish"
+ln -sf "$PWD/fish/functions/jver.fish" "$HOME/.config/fish/functions/jver.fish"
+
+### fish completions
+ln -sf "$PWD/fish/completions/jset.fish" "$HOME/.config/fish/completions/jset.fish"
